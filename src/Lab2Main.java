@@ -18,9 +18,9 @@ public class Lab2Main {
             arr[i] = getUserInput(1, 99, "\tarray[" + i + "] = ");
         }
 
-        System.out.println(isPrimeArrayIter(arr, length) ? "Prime Array using iteration" : "Not a Prime Array using " +
+        System.out.println(isPrimeArrayIter(arr, length) ? "\tPrime Array using iteration" : "\tNot a Prime Array using " +
                 "iteration");
-        System.out.println(isPrimeArrayRecur(arr, length) ? "Prime Array using recursion" : "Not a Prime Array using " +
+        System.out.println(isPrimeArrayRecur(arr, length) ? "\tPrime Array using recursion" : "\tNot a Prime Array using " +
                 "recursion");
 
     }
