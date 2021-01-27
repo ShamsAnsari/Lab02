@@ -7,6 +7,14 @@
 import java.util.Scanner;
 
 public class Lab2Main {
+    /**
+     * get user length of array
+     * get numbers for array from user
+     * call isPrimeArrayIter and isPrimeArrayRecur
+     * Print result
+     * wait for user to hit enter
+     * @param args
+     */
     public static void main(String[] args) {
         final int SORT_MAX_SIZE = 16;
 
@@ -22,7 +30,8 @@ public class Lab2Main {
                 "iteration");
         System.out.println(isPrimeArrayRecur(arr, length) ? "\tPrime Array using recursion" : "\tNot a Prime Array using " +
                 "recursion");
-
+        //wait for user to press enter
+       new Scanner(System.in).hasNextLine();
     }
 
     /**
